@@ -1,0 +1,150 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"]{
+    float: left;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header-head img{
+    float: left;
+    margin-left: 10%;
+    border:1px white solid;
+    margin-top: 20px;
+   
+}
+.header-head ul{
+    float: right;
+    margin-top: 50px;
+ 
+}
+.header-head ul li{
+    list-style-type: none;
+    display: inline;
+}
+.header-head a{
+    text-decoration: none;
+    color: white;
+}
+.nav-head{
+    text-align: left;
+   
+}
+.nav-head h1{
+    font-size: 40px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 15%;
+ }
+ .nav-head p{
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 20px;
+ }
+ .nav-head img{
+     width: 380px;
+     margin-top: 20px;
+     height: 400px;
+     margin-left: 25%;
+     border: none;
+   
+ }
+ .every {
+    padding: 10px;
+  }
+  .main-header .all-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.main-header .all-img img{
+    border-radius: 7px;
+    height: 200px; 
+    object-fit: cover; 
+}
+.main-body .sub-body {
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+/* Footer */
+/* Very Important -remember take 1hour */
+.akotra-2 {
+display: flex;
+justify-content: center;
+
+}
+.footer-head .value{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.footer-head .value2{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.footer-head .value1{
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+label {
+    flex: 0.3;
+}
+input{
+    flex: 0.7;
+  
+}
+.akotra-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-head button{
+  float: right;
+  margin-right: 20px;
+}
+/*  */
+.footer-body{
+display: flex;
+justify-content: space-between;
+}
+.footer-body h4{
+    text-align: left;
+}
+.footer-body ul li{
+    display: inline;
+    
+}
+.footer-body ul{
+float: right;
+}

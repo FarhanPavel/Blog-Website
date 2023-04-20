@@ -1,0 +1,90 @@
+.col-t-1 {width: 8.33%;}
+.col-t-2 {width: 16.66%;}
+.col-t-3 {width: 25%;}
+.col-t-4 {width: 33.33%;}
+.col-t-5 {width: 41.66%;}
+.col-t-6 {width: 50%;}
+.col-t-7 {width: 58.33%;}
+.col-t-8 {width: 66.66%;}
+.col-t-9 {width: 75%;}
+.col-t-10 {width: 83.33%;}
+.col-t-11 {width: 91.66%;}
+.col-t-12 {width: 100%;}
+[class*="col-"]{
+    float: left;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header-head img{
+    float: left;
+    margin-top: 5%;
+    border:1px white solid;
+    width: 50px;
+    height: 50px;
+   
+}
+.header-head ul{
+    float: right;
+    margin-top: 30px;
+ 
+}
+.header-head ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 0%;
+}
+.header-head a{
+    text-decoration: none;
+    color: white;
+}
+/*  */
+
+.nav-head{
+    text-align: left; 
+}
+.nav-head h1{
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    margin-top: 15%;
+ }
+ .nav-head p{
+    font-size: 13px;
+    padding: 10px;
+    
+ }
+ .nav-head img{
+     width: 330px;
+     margin-top: 20px;
+     height: auto;
+     margin-left: 25%;
+     border: none;
+   
+ }
+ /*  */
+ .nav-body .card-1 {
+    margin-bottom: 30px;
+ 
+}
+/*  */
+.akotra-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-head{
+    padding-top: 10px;
+}
+.footer-head h1{
+margin-left: 25px;
+}
+.footer-body h4{
+    text-align: left;
+}
+.footer-body ul{
+    float: right;
+    }

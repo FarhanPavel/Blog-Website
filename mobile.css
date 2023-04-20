@@ -1,0 +1,327 @@
+
+/* CSS for mobile */
+.col-m-1 {width: 8.33%;}
+.col-m-2 {width: 16.66%;}
+.col-m-3 {width: 25%;}
+.col-m-4 {width: 33.33%;}
+.col-m-5 {width: 41.66%;}
+.col-m-6 {width: 50%;}
+.col-m-7 {width: 58.33%;}
+.col-m-8 {width: 66.66%;}
+.col-m-9 {width: 75%;}
+.col-m-10 {width: 83.33%;}
+.col-m-11 {width: 91.66%;}
+.col-m-12 {width: 100%;}
+
+/* CSS for header */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header-head{
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+ 
+  
+}
+.header-head img{
+    margin-top: 10px;
+    border:1px white solid;
+    padding: 5px;
+    display: flex;
+    margin: 0 auto;
+}
+.header-head ul{
+margin-left: -9%;
+ 
+}
+.header-head ul li{
+    list-style-type: none;
+    padding: 10px;
+    display: block;
+}
+.header-head a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+   
+}
+.header-head a:hover{
+    background-color: rgb(67, 67, 238);
+    
+}
+/* Important */
+.header-head::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.nav-head{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.nav-head h1{
+font-size: 30px;
+background-color: black;
+display:inline-block;
+padding: 20px;
+color: white;
+}
+.nav-head p{
+    text-align: left;
+    padding: 20px;
+    margin-top: -20px;
+    font-size: 18px;
+}
+.nav-head img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 400px;
+    float: right;
+    height: auto;
+    margin-right: 20px;
+
+}
+.nav-head::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.nav-body{
+    background-color: #4C4C4C;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+  
+}
+.nav-body h1{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 40px;
+    
+}
+.nav-body .card-1 {
+    background-color: #A09D9D;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-radius: 9px;
+    padding-top: -2px;
+}
+.nav-body .card-1 h2{
+    text-align: center;
+    padding: 3%;
+}
+.nav-body .card-1 p{
+    text-align: left;
+    padding: 10px;
+}
+.nav-body .card-1 button{
+background-color: orange;
+color: black;
+border: none;
+padding: 10px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+max-width: 100%;
+width: 300px;
+}
+.every:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.nav-body::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.main-header{
+    padding-bottom:30px ;
+}
+.main-header h1{
+    font-size: 30px;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    }
+    .main-header .all-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+.main-header .all-img img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 25px;
+ }
+ .main-header .all-img :hover{
+    transform: scale(1.05);
+    transition: 1s;
+ }
+ .main-header #one-hori{
+   
+    border-bottom: 1px black solid;
+    max-width: 100%;
+    margin-bottom: 10px;
+   
+ }
+.main-header #two-hori{
+    border-bottom: 1px black solid;
+    max-width: 100%;
+    margin-top: 20px;
+
+ } 
+ .main-header::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.main-body{
+  padding-bottom:30px ;
+}
+.main-body h1{
+    font-size: 30px;
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+.main-body .card-2{
+
+border: 1px black solid;
+margin-left: 40px;
+margin-bottom: 40px;
+box-shadow: 1px 0.1px 1px black;
+}
+.main-body .card-2 .pavel{
+    padding: 10px;
+}
+.main-body .card-2 .pavel p{
+    font-size: 10px;
+}
+.main-body .card-2 img{
+    max-width: 100%;
+
+    height: auto;
+}
+.main-body .card-2 button{
+    width: 200px;
+    max-width: 100%;
+    padding: 10px;
+    color:black ;
+    background-color: orange;
+    border: none;
+    display: flex;
+   margin: 0 auto;
+   justify-content: center;
+   border-radius: 7px;
+   margin-bottom: 5px;
+ 
+}
+.main-body .card-2:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.main-body::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+/* Footer */
+/* Very Important -remember take 1hour */
+.footer-head{
+    text-align: center;
+    background-color: #4C4C4C;
+   padding-bottom: 5%;
+ }
+ .footer-head h1{
+     color: white;
+ }
+ .footer-head label{
+     font-size: 15px;
+    color: white;
+ }
+ .footer-head input{
+   width: 300px;
+   max-width: 100%;
+   height: 30px;
+   border: none;
+   border-radius: 7px;
+   margin: 0 auto;
+ }
+ .footer-head .value{
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+ }
+ .footer-head .value2{
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ 
+ 
+ 
+ .footer-head .value1{
+     padding: 10px;
+     border: none;
+     border-radius: 7px;
+     display: flex;
+     flex-direction: column;
+ }
+ .footer-head .value1 input{
+     height: 70px;
+ }
+ 
+ 
+ .footer-head button{
+     background-color: orange;
+    max-width: 100%;
+     width:100px;
+     border: none;
+     margin-top: 20px;
+     padding: 9px;
+     margin-bottom: 10px;
+ }
+ .footer-head .akotra{
+     border: 1px white solid;
+     margin-left: 30px;
+ }
+ .footer-head::after{
+     clear: both;
+     display: table;
+     content: '';
+ } 
+ /*  */
+.footer-body{
+    
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+}
+.footer-body h4{
+    text-align: center;
+}
+.footer-body ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.footer-body ul li{
+    display: inline;
+    padding: 9px;
+}
+.footer-body ul li:hover{
+    color: #005eff;
+}
+.footer-body::after{
+    clear: both;
+    display: table;
+    content: '';
+} 
